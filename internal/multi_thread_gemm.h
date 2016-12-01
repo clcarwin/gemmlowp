@@ -19,7 +19,8 @@
 #ifndef GEMMLOWP_INTERNAL_MULTI_THREAD_GEMM_H_
 #define GEMMLOWP_INTERNAL_MULTI_THREAD_GEMM_H_
 
-#include <pthread.h>
+//#include <pthread.h>
+#include "pthread_shim.h"
 #include <unistd.h>
 #include <vector>
 
